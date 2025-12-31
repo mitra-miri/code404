@@ -94,4 +94,17 @@ body{
     font-size: 16px;
 }
 
+@media (max-width: 600px) {
 
+    .container-box { 
+        flex-direction: column; 
+        text-align: center; 
+    } 
+    .box{
+        width: 70%;
+    }
+
+    .navlink{
+        width: 50%;
+    }
+}
