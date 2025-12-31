@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "almas";
+  src: url("../font/almas.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-image{
+    height: 100%;
+    max-height: 40px;
+    width: auto;
+    display: block;
+}
+
+.navbar{
+    direction: ltr;
+    align-items: center;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #d1d0e0;
+    border-radius: 20px;
+}
+
+.navlink{
+    margin: 0;          
+    padding: 0 15px;   
+    display: flex;
+    align-items: center; 
+    width: 22%;
+    justify-content: space-between;
+}
+
+.navlink li{
+    list-style: none;
+}
+
+.navlink a{
+    color: #126b6e;
+    text-decoration: none;
+    
+}
+.navlink a:hover{
+    color: #2a3f3b;
+}
+
+.container-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 20%;
+    margin:auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(255, 249, 249);
+    background-color: aliceblue;
+    font-size: 25px;
+    line-height: 2em;
+    height: 400px;
+    color:#2a3f3b;
+}
+
+.box img{
+    width: 20%;
+}
+
+.box h4{
+    color: #0075e283;
+    font-weight: bold;
+}
+
+.box a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+body{
+    direction: rtl;
+    background-image:url(../images/bg12);
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "almas", sans-serif;
+    font-size: 16px;
+}
+
+

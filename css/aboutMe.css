@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "almas";
+  src: url("../../font/almas.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-image{
+    height: 100%;
+    max-height: 40px;
+    width: auto;
+    display: block;
+}
+
+.navbar{
+    direction: ltr;
+    align-items: center;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #d1d0e0;
+    border-radius: 20px;
+}
+
+.navlink{
+    margin: 0;          
+    padding: 0 15px;   
+    display: flex;
+    align-items: center; 
+    width: 22%;
+    justify-content: space-between;
+}
+
+.navlink li{
+    list-style: none;
+}
+
+.navlink a{
+    color: #126b6e;
+    text-decoration: none;
+    
+}
+.navlink a:hover{
+    color: #2a3f3b;
+}
+
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+body{
+    direction: rtl;
+    background-image:url(../images/bg12);
+    background-attachment: fixed;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "almas", sans-serif;
+    font-size: 16px;
+}
+
+
