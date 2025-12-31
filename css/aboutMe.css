@@ -1,6 +1,6 @@
 @font-face {
   font-family: "almas";
-  src: url("../../font/almas.ttf") format("truetype");
+  src: url("../font/almas.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -69,7 +69,7 @@
     margin: 15px 10px;
     flex-direction: column;
     align-items: center;
-    width: 15%;
+    width: 18%;
     
 }
 

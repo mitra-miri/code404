@@ -27,7 +27,7 @@
     padding: 0 15px;   
     display: flex;
     align-items: center; 
-    width: 22%;
+    width: 24%;
     justify-content: space-between;
 }
 
@@ -76,11 +76,6 @@
 .box a{
     text-decoration: none;
 }
-
-
-
-
-
 
 
 body{
