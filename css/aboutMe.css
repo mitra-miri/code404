@@ -47,12 +47,54 @@
 .container{
     display: flex;
     flex-direction: row-reverse;
+    
 }
 
+.container .about{
+    display: flex;
+    color: #043638;
+    padding: 15px;
+    background-color: #fff3f3;
+    border-radius: 15px;
+    margin: 15px 10px;
+    
+}
+
+.sidebar{
+    text-align: center;
+    padding: auto;
+    display: flex;
+    background-color: #fff3f3;
+    border-radius: 15px;
+    margin: 15px 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    
+}
+
+.sidebar ul{
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li{
+    list-style: none;
+ 
+}
+
+.sidebar a{
+    color: #126b6e;
+    text-decoration: none;
+    
+}
+.sidebar a:hover{
+    color: #2a3f3b;
+}
 
 body{
     direction: rtl;
-    background-image:url(../images/bg12);
+    background-image:url(../images/bg16.jpeg);
     background-attachment: fixed;  
     background-repeat: no-repeat;
     background-size: cover;
